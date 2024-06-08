@@ -1,0 +1,204 @@
+.chapterMain {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    width: 100%;
+    height: 42vmax;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 236, 183, 0.2)), url("../../assets/bg/chapterBG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.hero .head {
+    margin: 0;
+    color: #582503;
+    font-size: 4vmax;
+    font-weight: 600;
+}
+
+.hero .quickVerse {
+    /* border: 1px solid; */
+    width: 60%;
+    min-height: 15vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1vmax;
+    background: #ffffff13;
+    backdrop-filter: blur(2px);
+}
+
+.hero .quickVerse .chapterNo {
+    color: #fff;
+    font-weight: 600;
+}
+
+.hero .quickVerse .verseNo {
+    color: #684e42;
+    font-weight: 600;
+}
+
+.hero .quickVerse .verseDesc {
+    color: #582503;
+    font-size: 1.5vmax;
+    text-align: center;
+}
+
+.hero .quickVerse .btn button {
+    height: 2.5vmax;
+    width: 8vmax;
+    border: none;
+    border: 1px solid brown;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.3s all linear;
+    cursor: pointer;
+    font-size: 1.2vmax;
+}
+
+.hero .quickVerse .btn button:hover {
+    background-color: brown;
+}
+
+.body {
+    width: 100%;
+    min-height: 42vmax;
+    background-color: rgba(247, 205, 178, 0.324);
+    position: relative;
+    padding-bottom: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.body .cpt {
+    width: 39vmax;
+    height: 30vmax;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.body .cpt .btn button {
+    position: absolute;
+    /* top: 0; */
+    right: 5%;
+    bottom: 8%;
+    padding: 2% 4%;
+    background-color: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    transition: 0.3s all linear;
+    font-size: 1vmax;
+}
+
+.body .cpt .btn button:hover {
+    background-color: #582503;
+    color: #fff;
+}
+
+.body .cpt  .block {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.body .cpt .img {
+    position: relative;
+    width: 20vmax;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 20px;
+}
+
+.body .cpt .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.body .cpt .block .desc {
+    width: 60%;
+    padding: 2%;
+    /* background-color: blue; */
+    overflow-y: scroll;
+    height: 15vmax;
+}
+
+.body .cpt .block .desc::-webkit-scrollbar {
+    width: 2px;
+}
+
+.body .cpt .block .desc::-webkit-scrollbar-thumb {
+    background-color: #582503;
+}
+
+.body .cpt .block .desc p {
+    font-size: 1.2vmax;
+}
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 5vmax;
+    background-color: #311502;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* For mobile phones */
+
+@media only screen and (max-width: 430px) {
+    .body .cpt {
+        margin-right: auto;
+        margin-left: 5vmax;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .second .right .moreDescription {
+        margin-top: 20%;
+    }
+
+    #contact {
+        padding: 5%;
+    }
+}
+  
+  /* For tablets */
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+
+  }
+  
+  /* For small laptops */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+ 
+  }
+  
+  /* For laptops/desktops */
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+  }
+  
+  /* For large screens/TVs */
+  @media only screen and (min-width: 1201px) {
+
+  }

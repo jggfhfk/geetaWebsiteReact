@@ -1,0 +1,552 @@
+.mainHome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+/* first */
+.first {
+    width: 100%;
+    height: 42vmax;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 236, 183, 0.2)), url("../../assets/bg/Designer\ \(5\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first .p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first .p p {
+    color: #452d03b9;
+    opacity: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20vmax;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+}
+
+.quote {
+    width: 40%;
+    height: auto;
+    background-color: #eacb8458;
+    text-align: center;
+    border-top-left-radius: 3vmax;
+    border-top-right-radius: 3vmax;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    margin-top: 20%;
+}
+
+.quote p {
+    color: white;
+    font-size: 2vmax;
+    font-weight: 700;
+    padding: 10% 15%;
+}
+
+.quote p span {
+    font-size: 2.5vmax;
+    color: #564028;
+}
+
+/* first */
+
+
+/* second */
+
+.second {
+    width: 100%;
+    height: 38vmax;
+    background-color: #bfad9631;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.second .wheels1 {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: -35%;
+    bottom: -10%;
+}
+
+.second .wheels2 {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: -10%;
+    right: -30%;
+}
+
+.second img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+.second .left {
+    width: 45%;
+    height: 80%;
+    /* background-color: green; */
+    position: relative;
+}
+
+.left .title {
+    /* background-color: red; */
+    margin-top: 10%;
+    font-size: 1.5vmax;
+    /* letter-spacing: 0.07rem; */
+    color: #836D70;
+    font-weight: 600;
+}
+
+.left .description {
+    /* background-color: yellow; */
+    margin-top: 5%;
+    width: 70%;
+    font-size: 1.5vmax;
+    letter-spacing: 0.07rem;
+    color: #564028;
+    font-weight: 600;
+}
+
+.second .right {
+    width: 45%;
+    height: 80%;
+    /* background-color: rgb(164, 235, 164); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.second .right .moreDescription {
+    width: 100%;
+    /* background-color: red; */
+    padding-left: 7%;
+    border-left: 5px solid #B48F2A;
+}
+
+.second .right .moreDescription p {
+    font-weight: 500;
+    color: #766b58;
+    font-size: 1.5vmax;
+}
+
+.second .right .moreDescription span {
+    font-size: 2vmax;
+    color: #634f16;
+}
+
+/* second */
+
+/* third */
+
+.third {
+    width: 100%;
+    height: 42vmax;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 236, 183, 0.2)), url("../../assets/bg/Designer\ \(6\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.third .title {
+    width: 100%;
+    font-size: 1.5vmax;
+    color: #fff;
+    font-weight: 500;
+}
+
+.third .title p {
+    padding: 4% 5%;
+}
+
+.third .info {
+    width: 95%;
+    height: 25vmax;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.third .info .i1 {
+    width: 20%;
+    height: 15vmax;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.third .info .i1 hr {
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.third .info .i1 .number {
+    font-size: 8vmax;
+}
+.third .info .i1 .word {
+    font-size: 1.5vmax;
+}
+
+
+/* third */
+
+
+/* fourth */
+
+.fourth {
+    width: 100%;
+    height: 42vmax;
+    background: linear-gradient(#bfad9631, #bfad9692);
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .cardGroup {
+    width: 80%;
+    min-height: 90%;
+    /* background-color: red; */
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 15vmax, 15vmax;
+    align-content: center;
+    justify-content: center;
+}
+
+.fourth .cardGroup .card {
+    width: 100%;
+    height: 15vmax;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s all linear;
+}
+
+.fourth .cardGroup .card:hover {
+    /* border: 1px solid rgb(112, 98, 86); */
+    box-shadow: 0 2px 6px rgba(112, 98, 86, 0.386);
+}
+
+.fourth .cardGroup .card .cardImg {
+    position: relative;
+    width: 60%;
+    height: 80%;
+}
+
+.fourth .cardGroup .card .cardImg img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
+.fourth .cardGroup .card p {
+    color: #564028;
+    margin-top: 2%;
+}
+
+/* fourth */
+
+/* contact */
+
+.contact {
+    width: 100%;
+    height: 42vmax;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 236, 183, 0.2)), url("../../assets/bg/Designer\ \(7\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: -10%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contact .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+}
+
+.contact .left .title {
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 10%;
+    align-items: flex-end;
+}
+
+.contact .left .title p {
+    color: #fff;
+    font-size: 3vmax;
+}
+
+.contact .left .selfContactInfo {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+    padding: 0 10%;
+} 
+
+.contact .left .selfContactInfo .name, .number, .socialLinks {
+    color: #f8ecde;
+    font-size: 1.5vmax;
+    margin: 2% 0;
+}
+
+.socialLinks {
+    display: flex;
+}
+
+.socialLinks a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    width: 2.5vmax;
+    height: 1.9vmax;
+    margin: 0 3%;
+}
+
+.socialLinks a img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.contact .right .form {
+    width: 90%;
+    min-height: 60%;
+    background-color: #ffffff21;
+    backdrop-filter: blur(15px);
+    border-radius: 5vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .right .form .email {
+    margin-top: 10%;
+    width: 70%;
+    /* background-color: red; */
+}
+
+.contact .right .form .email label, .message label {
+    font-size: 1vmax;
+    margin-right: 3%;
+    color: #564028;
+    font-weight: 600;
+}
+
+.contact .right .form .email input, .message textarea {
+    width: 100%;
+    height: 3vmax;
+    text-indent: 1vmax;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border: 1px solid orange;
+    border-radius: 1vmax;
+    color: #fff;
+}
+
+.contact .right .form .message {
+    width: 70%;
+    margin-top: 5%;
+    transition: 0.1s all linear;
+}
+.contact .right .form .button {
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+.contact .right .form .button button {
+    height: 3vmax;
+    width: 10vmax;
+    border-radius: 5vmax;
+    outline: none;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    background-color: orange;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact .right .form .button button p{
+    color: white;
+    z-index: 10;
+    position: relative;
+}
+
+.contact .right .form .button button::before {
+    content: "";
+    position: absolute;
+    top: 10vmax;
+    left: -10vmax;
+    width: 100%;
+    height: 100%;
+    border-radius: 5vmax;
+    background-color: rgb(246, 81, 30);
+    transition: 0.3s all linear;
+    z-index: 1;
+}
+
+.contact .right .form .button button:hover::before {
+    left: 0;
+    top: 0;
+}
+
+/* contact */
+
+
+/* For mobile phones */
+@media only screen and (max-width: 576px) {
+    .fourth .cardGroup {
+        gap: 4%;
+    }
+
+    .fourth .cardGroup .card .cardHead p {
+        font-size: 1.5vmax;
+    }
+
+    .second {
+        padding: 5% 0;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .third .info {
+        flex-direction: column;
+    }
+
+    .contact {
+        flex-direction: column-reverse;
+    }
+
+    .contact .right .form .button button p {
+        font-size: 1vmax;
+    }
+
+    .contact .right .form {
+        width: 100%;
+    }
+
+    .third .info {
+        height: 30vmax;
+    }
+
+    .contact {
+        height: 80vmax;
+    }
+
+    .contact .right {
+        width: 100%;
+    }
+
+    .contact .right .message textarea {
+        min-height: 20vmax;
+        max-width: 100%;
+    }
+
+    .contact .right .form .email label, .message label {
+        font-size: 1.5vmax;
+    }
+
+    .contact .left .selfContactInfo {
+        height: 50%;
+    }
+  }
+  
+  /* For tablets */
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    .fourth .cardGroup {
+        gap: 4%;
+    }
+    .fourth .cardGroup .card .cardHead p {
+        font-size: 1.7vmax;
+    }
+  }
+  
+  /* For small laptops */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    .fourth .cardGroup {
+        gap: 2%;
+    }
+  }
+  
+  /* For laptops/desktops */
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* Styles */
+  }
+  
+  /* For large screens/TVs */
+  @media only screen and (min-width: 1201px) {
+    /* Styles */
+  }
+
+.contact .right .form .email label, .message label {
+    color: orange;
+}
