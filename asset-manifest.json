@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/geetaWebsiteReact/static/css/main.50fea5a6.css",
+    "main.css": "/geetaWebsiteReact/static/css/main.97e848bc.css",
     "main.js": "/geetaWebsiteReact/static/js/main.3897cd36.js",
     "static/js/453.225ecbce.chunk.js": "/geetaWebsiteReact/static/js/453.225ecbce.chunk.js",
     "static/media/chapt.png": "/geetaWebsiteReact/static/media/chapt.30103d60971f858bedb9.png",
@@ -38,12 +38,12 @@
     "static/media/bhagavad-gita.png": "/geetaWebsiteReact/static/media/bhagavad-gita.e3a2b5733fe25c442b46.png",
     "static/media/facebook.png": "/geetaWebsiteReact/static/media/facebook.49e67d43221b6bb1aa86.png",
     "index.html": "/geetaWebsiteReact/index.html",
-    "main.50fea5a6.css.map": "/geetaWebsiteReact/static/css/main.50fea5a6.css.map",
+    "main.97e848bc.css.map": "/geetaWebsiteReact/static/css/main.97e848bc.css.map",
     "main.3897cd36.js.map": "/geetaWebsiteReact/static/js/main.3897cd36.js.map",
     "453.225ecbce.chunk.js.map": "/geetaWebsiteReact/static/js/453.225ecbce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50fea5a6.css",
+    "static/css/main.97e848bc.css",
     "static/js/main.3897cd36.js"
   ]
 }
